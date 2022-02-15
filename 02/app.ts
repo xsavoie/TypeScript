@@ -3,15 +3,24 @@
 //   name: string
 //   age: number
 // } = {
-  const person = {
-  name: "Xavier",
+const person: {
+  name: string;
+  age: number;
+  hobbies: string[];
+  role: [number, string];
+} = {
+  name: 'Xavier',
   age: 30,
-  hobbies: ['Cooking', 'Reading']
+  hobbies: ['Cooking', 'Reading'],
+  role: [2, 'dev'], // tuple
 };
+
+person.role.push('admin');
+// person.role[1] = 10;
 
 // let favoriteActivities: string[];
 let favoriteActivities: any[];
-favoriteActivities = ['Cooking', 1]
+favoriteActivities = ['Cooking', 1];
 
 console.log(person);
 
