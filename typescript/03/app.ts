@@ -4,6 +4,7 @@
 const button = document.querySelector('button');
 
 function clickHandler(message: string) {
+  let username = 'test'
   console.log('Click' + message);
 }
 
