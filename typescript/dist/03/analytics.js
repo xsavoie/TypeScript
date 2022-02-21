@@ -1,6 +1,5 @@
 "use strict";
-const sendAnalytics;
-(data) => {
+function sendAnalytics(data) {
     console.log(data);
-};
+}
 sendAnalytics('The data');
