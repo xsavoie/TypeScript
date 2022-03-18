@@ -90,4 +90,4 @@ function createCourseGoal(title: string, description: string, date: Date): Cours
 }
 
 const names: Readonly<string[]> = ['Max', 'Anna'];
-names.push('Manu')
+// names.push('Manu')

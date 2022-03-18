@@ -48,4 +48,3 @@ function createCourseGoal(title, description, date) {
     return courseGoal;
 }
 const names = ['Max', 'Anna'];
-names.push('Manu');
