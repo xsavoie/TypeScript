@@ -16,4 +16,5 @@ const fetchedUserData = {
     id: 'u1',
     name: 'max',
 };
-console.log(fetchedUserData.job.title);
+const storedData = userInput !== null && userInput !== void 0 ? userInput : 'DEFAULT';
+console.log(storedData);
