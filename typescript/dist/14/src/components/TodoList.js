@@ -1,6 +1,4 @@
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
-require("./TodoList.css");
+import './TodoList.css';
 const TodoList = (props) => {
     return (<ul>
       {props.items.map((todo) => (<li key={todo.id}>
@@ -11,4 +9,4 @@ const TodoList = (props) => {
         </li>))}
     </ul>);
 };
-exports.default = TodoList;
+export default TodoList;
